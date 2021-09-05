@@ -18,7 +18,7 @@ public class Main {
         player.show();
 //        pair.show();
 
-        System.out.println("aaaaaaaa");
+        System.out.println("aaaaaaaaaaaa");
 
 
     }
