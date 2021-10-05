@@ -24,9 +24,9 @@ public class Calculator2 {
             // 入力された文字列を計算に使うためのリスト
             List<String> inputNumber = new ArrayList<>(Arrays.asList(str.split(" ")));
             // 要素数3の場合
-            if (inputNumber.size() == 3) {
-                show(firstFormula, simpleCalc(inputNumber));
-            }
+//            if (inputNumber.size() == 3) {
+//                show(firstFormula, simpleCalc(inputNumber));
+//            }
             // + - 以外の演算を終わらせる
             while (!repeatFlag) {
                 multipleCalc(inputNumber);
